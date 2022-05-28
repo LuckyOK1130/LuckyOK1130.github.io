@@ -67,15 +67,21 @@ ul.navbar-nav {
 }
 
 /*视频挂载*/
-/*
+
 .iframe_video {
 
 position: relative;
 
-width: 100%;
+padding-bottom: 25px;
 
-} */
-/*
+width: 100%!important;
+
+}
+
+
+
+
+
 @media only screen and (max-width: 767px) {
 
 .iframe_video {
@@ -90,17 +96,17 @@ height: 15em;
 
 .iframe_video {
 
-height: 20em;
+height: 15em;
 
 }
 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .iframe_video {
 
-height: 30em;
+height: 15em;
 
 }
 
@@ -110,17 +116,21 @@ height: 30em;
 
 .iframe_video {
 
-height: 40em;
+height: 15em;
 
 }
 
 }
+
+
 
 .iframe_cross {
 
 position: relative;
 
 width: 100%;
+
+height: 100%;
 
 height: 0;
 
@@ -140,7 +150,7 @@ left: 0;
 
 top: 0
 
-} */
+}
 
 .footertop {
   text-align:center;
