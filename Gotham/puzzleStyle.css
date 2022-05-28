@@ -1,0 +1,31 @@
+body {
+  padding-left: 8em;
+  padding-right: 8em;
+  text-align:center;
+  font-name:"Fira Mono";
+  font-weight:bolder;
+  color: red;
+  background-image:url("哥谭.png");
+}
+
+h1{
+  background-color:black;
+  padding:8px;
+  font-size: 45px;
+}
+
+#explain{
+  font-name:"Fira Mono";
+  font-weight:medium;
+    font-size: 18px;
+}
+
+button {
+  background: gray;
+  padding: 8px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 8px;
+  font-family: Arial;
+  font-size: 16px;
+}

@@ -1,0 +1,21 @@
+a.navbar-brand {
+  margin-left: 2.0rem !important
+}
+
+a.navbar-brand-1 {
+  padding: 0.6rem !important
+}
+
+ul.navbar-nav {
+  position: absolute;
+  right: 0px;
+}
+
+
+a.btn {
+  padding: 12px 18px;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.33;
+  border-radius: 8px;
+}
