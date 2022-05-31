@@ -1,0 +1,62 @@
+a.navbar-brand {
+  margin-left: 2.0rem !important
+}
+
+a.navbar-brand-1 {
+  padding: 0.6rem !important
+}
+
+ul.navbar-nav {
+  position: absolute;
+  right: 0px;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.intro {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.round_icon{
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#falls {
+  margin: 50px;
+}
+
+.card{
+  width: 100%;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img{width: 100%;}
+
+.footertop {
+  text-align:center;
+  /* border-top-style:solid; */
+  border-top-color:#E8E9EB;
+  background-color:#E8E9EB;
+}
+
+
+.footerbot {
+    border-top-style:solid;
+    border-top-color:#F4F4F8;
+    background-color:#E8E9EB;
+    text-align: center;
+}
