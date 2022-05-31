@@ -36,7 +36,6 @@ ul.navbar-nav {
   border-bottom-style:dashed;
 }
 
-
 .img.img {
     opacity:0.8;
 }
@@ -54,8 +53,12 @@ ul.navbar-nav {
   transition:all 0.8s ease;
 }
 
+.img-fluid {
+  margin-top: 7.9px;
+  margin-bottom: 8px;
+}
+
 .img-fluid:hover {
-    overflow: hidden;
     -webkit-transform:scale(1.05);
     -moz-transform:scale(1.05);
     -o-transform:scale(1.05);
