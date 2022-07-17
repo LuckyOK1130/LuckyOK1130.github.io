@@ -1,0 +1,141 @@
+a {
+  text-decoration: none;
+}
+
+.nav-font {
+  color: #4E4E4E;
+}
+
+#nav-pull {
+  transition: all 0.2s;
+}
+
+#nav-pull:active {
+  transform: rotate(180deg);
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+/* .banner-text {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+} */
+
+@media screen and (max-width:970px) {
+  .banner-text {
+    display: none;
+  }
+}
+
+.primary:hover {
+  cursor: pointer;
+}
+
+.secondary:hover {
+  cursor: pointer;
+}
+
+.timeline-font {
+  color: #606060;
+}
+
+.phone-text {
+  margin-top: -5em;
+}
+
+@media screen and (min-width:970px) {
+  .phone-text {
+    display: none;
+  }
+}
+
+.sub-title {
+  padding-left: 1em;
+}
+
+@media screen and (max-width:1230px) {
+  .text-secondary {
+    display: none;
+  }
+}
+
+.text-secondary-mobile {
+  color: #6F757C;
+  margin-bottom: 3em;
+  margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+  #title-search {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1230px) {
+  .text-secondary-mobile {
+    display: none;
+  }
+}
+
+.map-text {
+  text-align: center;
+  padding-top: 1em;
+  color: #606060;
+}
+
+.map-text:hover {
+  cursor: pointer;
+}
+
+.map-img {
+  /* img是inline元素，把它变成块元素之后就占一行了，左右设置成auto就可以了 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7em;
+  transition: all 0.2s;
+}
+
+.goods-img {
+  /* img是inline元素，把它变成块元素之后就占一行了，左右设置成auto就可以了 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  transition: all 0.2s;
+  margin-top: 2.2em;
+}
+
+.card-img-1 {
+  background-image: url('./src/img/wat/quiz.png');
+}
+
+.map-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.single-map {
+  margin-bottom: 2em;
+}
+
+.animal-map {
+  margin-bottom: 1.5em;
+}
+
+.see-more {
+  color: #74B4B4;
+  transition: all 0.2s;
+}
+
+.see-more:hover {
+  cursor: pointer;
+  color: #497474;
+}
+
+.card-title:hover {
+  cursor: pointer;
+}
